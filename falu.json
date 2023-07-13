@@ -1,0 +1,22 @@
+{
+    "homepage": "https://falu.io",
+    "version": "1.9.0",
+    "license": "MIT",
+    "description": "Falu CLI",
+    "architecture": {
+        "arm64": {
+            "url": "https://github.com/faluapp/falu-cli/releases/download/1.9.0/falu-1.9.0-win-arm64.zip",
+            "bin": [
+                "falu.exe"
+            ],
+            "hash": "50754375f3922d08d83574f8f7e07f9798514a536a955b36f9f14e1e6be0e741"
+        },
+        "64bit": {
+            "url": "https://github.com/faluapp/falu-cli/releases/download/1.9.0/falu-1.9.0-win-x64.zip",
+            "bin": [
+                "falu.exe"
+            ],
+            "hash": "f2c53f460914365ec2d279bc1251805cf7cb69686964139f9422768eca470d8e"
+        }
+    }
+}
